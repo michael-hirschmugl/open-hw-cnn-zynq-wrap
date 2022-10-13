@@ -1,0 +1,3 @@
+[submodule "open-hw-cnn"]
+	path = open-hw-cnn
+	url = git@github.com:michael-hirschmugl/open-hw-cnn.git
