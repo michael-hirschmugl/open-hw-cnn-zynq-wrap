@@ -1,5 +1,6 @@
 # open-hw-cnn-zynq-wrap
 This is the wrapper to use the open hardware CNN accelerator framework on a Zynq device.
+[Master Thesis](https://michael-hirschmugl.github.io/open-hw-cnn-zynq-wrap/)
 
 ## Overview
 This project connects the IP blocks from the `open-hw-cnn` framework with the Zynq Processing System. The IP blocks are already built and located in the `ip_repo` folder, where all IPs used in the block design are stored. The subproject `open-hw-cnn` is only available in case new IPs need to be generated. If you need to modify the IP, there is no current automation for creating a new IP. I plan to add this automation, possibly using a Tcl script or Python.
